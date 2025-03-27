@@ -4,11 +4,12 @@ import { motion } from "framer-motion"
 import { KpiCard } from "@/components/kpi-card"
 import { KeywordsTable } from "@/components/keywords-table"
 import { BacklinksTable } from "@/components/backlinks-table"
-import { Activity, Link2, Search, Share2, Users, Calendar, Bot } from "lucide-react"
+import { Activity, Link2, Search, Share2, Users } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import AgentsList from "@/components/AgentsList"
 import TaskCalendar from "@/components/TaskCalendar"
+import { BlogSection } from "@/components/blog-section"
 
 export default function Dashboard() {
   // Example KPI data
@@ -89,18 +90,23 @@ export default function Dashboard() {
         >
           {/* Task List */}
           <motion.div variants={itemVariants}>
-          <TaskCalendar />
-           
+            <TaskCalendar />
           </motion.div>
 
           {/* Agents List */}
           <motion.div variants={itemVariants}>
             <Card className="overflow-hidden border bg-card/50 shadow-md backdrop-blur-sm">
-              
               <CardContent className="p-4">
                 <AgentsList />
               </CardContent>
             </Card>
+          </motion.div>
+        </motion.div>
+
+        {/* Blog Section - Added above SEO Metrics */}
+        <motion.div variants={containerVariants} initial="hidden" animate="visible">
+          <motion.div variants={itemVariants}>
+            <BlogSection />
           </motion.div>
         </motion.div>
 
@@ -144,6 +150,8 @@ export default function Dashboard() {
             </Tabs>
           </motion.div>
         </motion.div>
+
+        {/* Removed the old Blogs Section as it's been replaced with the new BlogSection component */}
       </div>
     </div>
   )

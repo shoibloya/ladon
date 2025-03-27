@@ -35,7 +35,7 @@ export type Task = {
         id: 3,
         title: "First Blog Post",
         description: "The Importance of Storytelling in Video Production: How Engaging Narratives Enhance Brand Identity. Storytelling is a powerful way to evoke emotions and convey ideas.",
-        date: "2025-03-26T00:00:00Z",
+        date: "2025-03-27T00:00:00Z",
         colorIndex: 2,
         //location: "Conference Room A",
         tags: ["Blog"],
