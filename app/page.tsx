@@ -14,11 +14,11 @@ import { BlogSection } from "@/components/blog-section"
 export default function Dashboard() {
   // Example KPI data
   const kpiData = [
-    { title: "DR", value: 0, icon: <Activity className="h-4 w-4" /> },
-    { title: "UR", value: 6, icon: <Users className="h-4 w-4" /> },
-    { title: "Backlinks", value: 16, icon: <Link2 className="h-4 w-4" /> },
-    { title: "Ref. Domains", value: 15, icon: <Share2 className="h-4 w-4" /> },
-    { title: "Organic Traffic", value: 0, icon: <Search className="h-4 w-4" /> },
+    { title: "DR", value: 1.9, icon: <Activity className="h-4 w-4" /> },
+    { title: "UR", value: 2.3, icon: <Users className="h-4 w-4" /> },
+    { title: "Backlinks", value: 17, icon: <Link2 className="h-4 w-4" /> },
+    { title: "Ref. Domains", value: 11, icon: <Share2 className="h-4 w-4" /> },
+    { title: "Organic Traffic", value: 8, icon: <Search className="h-4 w-4" /> },
   ]
 
   // Hard-coded keywords data
@@ -55,7 +55,7 @@ export default function Dashboard() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-3xl font-bold tracking-tight text-transparent md:text-4xl"
           >
-            Coco Pixels Dashboard
+            Daytech Dashboard
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -130,17 +130,8 @@ export default function Dashboard() {
                 </CardHeader>
                 <CardContent className="p-4">
                   <TabsContent value="keywords" className="mt-0">
-                    {keywordsData.length > 0 ? (
-                      <KeywordsTable data={keywordsData} />
-                    ) : (
-                      <div className="flex flex-col items-center justify-center rounded-lg border border-dashed border-muted-foreground/20 bg-muted/10 p-10 text-center">
-                        <Search className="mb-2 h-10 w-10 text-muted-foreground/60" />
-                        <h3 className="mb-2 text-lg font-medium">No keyword data available</h3>
-                        <p className="text-sm text-muted-foreground">
-                          We'll add keyword data as we start tracking your target search terms.
-                        </p>
-                      </div>
-                    )}
+                      <KeywordsTable/>
+                    
                   </TabsContent>
                   <TabsContent value="backlinks" className="mt-0">
                     <BacklinksTable />

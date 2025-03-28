@@ -9,16 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 // Sample blog data - replace with your actual data source
 const blogPosts = [
-  {
-    id: 1,
-    title: "The Importance of Storytelling in Video Production",
-    excerpt: "How Engaging Narratives Enhance Brand Identity",
-    imageUrl: "/blog-one.png?height=200&width=400",
-    date: "Mar 27, 2025",
-    readTime: "10 min read",
-    url: "/blog-one",
-    status: "pending",
-  },
+  
   
 ]
 
