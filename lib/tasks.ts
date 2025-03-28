@@ -75,7 +75,7 @@ export type Task = {
     {
       id: 7,
       title: "Monthly Report",
-      description: "Posting second blog post on the topic AI in Translation: Hype vs. Reality for Businesses. Goal is to set foundation for keywords like 'AI translation'",
+      description: "Report on everything that happened in this month of subscription. Going through each article we posted and how they are performing as of 23rd March.",
       date: "2025-04-23T00:00:00Z",
       colorIndex: 4,
       //location: "Production",
@@ -87,7 +87,7 @@ export type Task = {
     {
       id: 8,
       title: "Subscription Renewable",
-      description: "Posting second blog post on the topic AI in Translation: Hype vs. Reality for Businesses. Goal is to set foundation for keywords like 'AI translation'",
+      description: "Subscription Renew Date.",
       date: "2025-04-24T00:00:00Z",
       colorIndex: 3,
       //location: "Production",
