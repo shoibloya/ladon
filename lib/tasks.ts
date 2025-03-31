@@ -34,7 +34,7 @@ export type Task = {
     {
         id: 3,
         title: "First Blog Post",
-        description: "First blog post will be targeting the keyword: 'Best Investments in Singapore/Investment Opportunity Singapore'. DareToFinance has a log of blogs on specific issues. However, not many on general topics. These two keywords are easy to rank for based on our data (Keyword difficulty 2/100). Let's start with these to see how it goes.",
+        description: "First blog post will be targeting the keyword: 'Best Investments in Singapore/Investment Opportunity Singapore'. DareToFinance has a lot of blogs on specific issues. However, not many on general topics. These two keywords are easy to rank for based on our data (Keyword difficulty 2/100). Let's start with these to see how it goes.",
         date: "2025-04-03T00:00:00Z",
         colorIndex: 2,
         //location: "Conference Room A",
@@ -45,7 +45,7 @@ export type Task = {
     {
       id: 4,
       title: "Second Blog Post",
-      description: "Blog post targeting the keyword 'finance tracker' emphasising what are best ways to keep track of personal finances with a excel template. We want to explore this new area, your competitors do provide templates for simple finance related topics. We want to start creating templates as well to see how they perform. 'finance tracker' is a good keyword to start with because it has a Keyword difficulty of 1/100",
+      description: "Blog post targeting the keyword 'finance tracker' emphasising what are best ways to keep track of personal finances with an excel template. We want to explore this new area, your competitors do provide templates for simple finance related topics. We want to start creating templates as well to see how they perform. 'finance tracker' is a good keyword to start with because it has a Keyword difficulty of 1/100",
       date: "2025-04-10T00:00:00Z",
       colorIndex: 2,
       //location: "Zoom",
@@ -65,7 +65,7 @@ export type Task = {
     {
       id: 6,
       title: "Fourth Blog Post",
-      description: "A guide to mutual funds in Singapore. Suprisingly, the keyword 'mutual funds singapore' has a keyword difficulty of 6/100. With this blog post, we want to capitalise on this opportunity.",
+      description: "A guide to mutual funds in Singapore. Surprisingly, the keyword 'mutual funds singapore' has a keyword difficulty of 6/100. With this blog post, we want to capitalise on this opportunity.",
       date: "2025-04-23T00:00:00Z",
       colorIndex: 2,
       //location: "Production",
