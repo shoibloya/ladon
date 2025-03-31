@@ -15,7 +15,7 @@ export type Task = {
       id: 1,
       title: "Website Analysed",
       description: "Nuggt team analysed the website and created the blog strategy.",
-      date: "2025-03-28T00:00:00Z",
+      date: "2025-03-31T00:00:00Z",
       colorIndex: 4,
       //location: "Conference Room A",
       tags: ["Admin"],
@@ -34,7 +34,7 @@ export type Task = {
     {
         id: 3,
         title: "First Blog Post",
-        description: "Blog that serves a guide to: sustainable corporate gifts in Singapore/eco friendly corporate gifts in Singapore",
+        description: "First blog post will be targeting the keyword: 'Best Investments in Singapore/Investment Opportunity Singapore'. DareToFinance has a log of blogs on specific issues. However, not many on general topics. These two keywords are easy to rank for based on our data (Keyword difficulty 2/100). Let's start with these to see how it goes.",
         date: "2025-04-03T00:00:00Z",
         colorIndex: 2,
         //location: "Conference Room A",
@@ -45,8 +45,8 @@ export type Task = {
     {
       id: 4,
       title: "Second Blog Post",
-      description: "Daytech already has a blog post on door gifts. But it's ranked 11th and above. We want to try writing an article on door gifts using our methodolgy to see if we can do better.",
-      date: "2025-04-11T00:00:00Z",
+      description: "Blog post targeting the keyword 'finance tracker' emphasising what are best ways to keep track of personal finances with a excel template. We want to explore this new area, your competitors do provide templates for simple finance related topics. We want to start creating templates as well to see how they perform. 'finance tracker' is a good keyword to start with because it has a Keyword difficulty of 1/100",
+      date: "2025-04-10T00:00:00Z",
       colorIndex: 2,
       //location: "Zoom",
       tags: ["Blog"],
@@ -55,7 +55,7 @@ export type Task = {
     {
         id: 5,
         title: "Third Blogpost",
-        description: "So far most of the blog posts on Daytech directly targets corporate gifts. We want to start a new category of blog posts target employee engagement ideas, employee engagement activities, workplace improvement ideas. People searching for these topics have a similar intent and purchase mindset. A simple call to action can convert them into paying customers.",
+        description: "This is where we want to try to create a guide on Budget 2025 (Singapore budget 2025). A simple worded guide to budget 2025. This article is created with a purpose to share (on daretofinance socials) and to attract backlinks.",
         date: "2025-04-18T00:00:00Z",
         colorIndex: 2,
         //location: "Zoom",
@@ -65,7 +65,7 @@ export type Task = {
     {
       id: 6,
       title: "Fourth Blog Post",
-      description: "Daytech already has articles targeting corporate gifts for clients. But it's ranked 20th and above. We want to try writing an article on corporate gifts for clients using our methodolgy to see if we can do better.",
+      description: "A guide to mutual funds in Singapore. Suprisingly, the keyword 'mutual funds singapore' has a keyword difficulty of 6/100. With this blog post, we want to capitalise on this opportunity.",
       date: "2025-04-23T00:00:00Z",
       colorIndex: 2,
       //location: "Production",
@@ -95,16 +95,5 @@ export type Task = {
       completed: false,
     },
 
-
-    {
-      id: 9,
-      title: "On Page SEO Changes",
-      description: "Webpage SEO Optimisation",
-      date: "2025-04-05T00:00:00Z",
-      colorIndex: 3,
-      //location: "Production",
-      tags: ["Admin"],
-      completed: false,
-    },
   ];
   
