@@ -9,7 +9,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 // Sample blog data - replace with your actual data source
 const blogPosts = [
-  
+  {
+    id: 1,
+    title: "Best Personal Investment Opportunities in Singapore",
+    excerpt: "Sample Structure/Content Table",
+    imageUrl: "/image_1.png?height=200&width=400",
+    date: "Apr 1, 2025",
+    readTime: "N/A",
+    url: "/sample-data",
+    status: "pending",
+  },
   
 ]
 
