@@ -11,9 +11,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const blogPosts = [
   {
     id: 1,
-    title: "Best Personal Investment Opportunities in Singapore",
+    title: "Investment Opportunities/Opportunities in Singapore",
     excerpt: "Sample Structure/Content Table",
-    imageUrl: "/image_1.png?height=200&width=400",
+    imageUrl: "/image_1.png",
     date: "Apr 1, 2025",
     readTime: "N/A",
     url: "/sample-data",
@@ -51,7 +51,7 @@ export function BlogSection() {
           <img
             src={post.imageUrl || "/placeholder.svg"}
             alt={post.title}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            className="h-full w-full object-contain transition-transform duration-300 hover:scale-105"
           />
         </div>
 
