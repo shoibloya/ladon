@@ -11,7 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const blogPosts = [
   {
     id: 1,
-    title: "Investment Opportunities/Opportunities in Singapore",
+    title: "Popular Investment Opportunities in Singapore",
     excerpt: "Sample Structure/Content Table",
     imageUrl: "/image_1.png",
     date: "Apr 1, 2025",
