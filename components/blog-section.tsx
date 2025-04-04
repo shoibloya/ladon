@@ -19,6 +19,16 @@ const blogPosts = [
     url: "/sample-data",
     status: "pending",
   },
+  {
+    id: 2,
+    title: "Which Are the Best Investments in Singapore? It Depends — Follow Alex and Su Lin’s Journey",
+    excerpt: "Blog for approval",
+    imageUrl: "/blog-one.png",
+    date: "Apr 4",
+    readTime: "10 mins",
+    url: "/blog-one",
+    status: "pending",
+  },
   
 ]
 
