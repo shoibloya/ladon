@@ -14,11 +14,11 @@ import { BlogSection } from "@/components/blog-section"
 export default function Dashboard() {
   // Example KPI data
   const kpiData = [
-    { title: "DR", value: 7, icon: <Activity className="h-4 w-4" /> },
-    { title: "UR", value: 2.1, icon: <Users className="h-4 w-4" /> },
-    { title: "Backlinks", value: 41, icon: <Link2 className="h-4 w-4" /> },
-    { title: "Ref. Domains", value: 28, icon: <Share2 className="h-4 w-4" /> },
-    { title: "Organic Traffic", value: 396, icon: <Search className="h-4 w-4" /> },
+    { title: "DR", value: 48, icon: <Activity className="h-4 w-4" /> },
+    { title: "UR", value: 7, icon: <Users className="h-4 w-4" /> },
+    { title: "Backlinks", value: 8000, icon: <Link2 className="h-4 w-4" /> },
+    { title: "Ref. Domains", value: 232, icon: <Share2 className="h-4 w-4" /> },
+    { title: "Organic Traffic", value: 2400, icon: <Search className="h-4 w-4" /> },
   ]
 
   // Hard-coded keywords data
@@ -55,7 +55,7 @@ export default function Dashboard() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-3xl font-bold tracking-tight text-transparent md:text-4xl"
           >
-            DareToFinance Dashboard
+            Vibefam Dashboard
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
