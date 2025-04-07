@@ -15,7 +15,7 @@ export async function getAgents(): Promise<Agent[]> {
     {
       id: "onboarding",
       name: "Onboarding Agent",
-      purpose: "Onboard DareToFinance with Nuggt",
+      purpose: "Onboard Vibefam with Nuggt",
       status: "ready",
       widgetId: "sDRxi7TYZoTiBUix5lgv", // widget embed id
       type: "inplace", // Example type
