@@ -13,7 +13,7 @@ const blogPosts = [
     id: 1,
     title: "[OUTLINE] How to Start a Dance Studio in Singapore (Step-by-Step Guide)",
     excerpt: "Blog Outline",
-    imageUrl: "/outline.png",
+    imageUrl: "/blog-one.png",
     date: "Apr 8",
     readTime: "N/A",
     url: "/blog-one",
