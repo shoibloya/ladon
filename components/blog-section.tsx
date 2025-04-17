@@ -11,45 +11,46 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const blogPosts = [
   {
     id: 1,
-    title: "[OUTLINE] Industrial Wastewater Treatment Automation Systems",
+    title: "[OUTLINE] Technical Manual Translation Services",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "Apr 25",
+    date: "Apr 21",
     readTime: "N/A",
     url: "/blog-one",
     status: "pending",
   },
   {
     id: 2,
-    title: "[OUTLINE] Energy Efficiency in Wastewater Treatment Plants",
+    title: "[OUTLINE] eLearning Translation Services for Corporate Training",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "May 2",
+    date: "Apr 25",
     readTime: "N/A",
     url: "/blog-two",
     status: "pending",
   },
   {
     id: 3,
-    title: "[OUTLINE] Predictive Maintenance for Wastewater Treatment Equipment",
+    title: "[OUTLINE] Corporate Video Translation and Voice-Over Services",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "May 9",
+    date: "May 2",
     readTime: "N/A",
     url: "/blog-three",
     status: "pending",
   },
   {
     id: 4,
-    title: "[OUTLINE] Digital Twin for Wastewater Treatment Plant Operations",
+    title: "[OUTLINE] Marketing Material Translation Services",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "May 12",
+    date: "May 8",
     readTime: "N/A",
     url: "/blog-four",
     status: "pending",
   },
 ]
+
 
 
 // Animation variants

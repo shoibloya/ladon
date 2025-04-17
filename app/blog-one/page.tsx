@@ -1,8 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import Image from "next/image"
 import {
   Table,
   TableBody,
@@ -12,38 +10,33 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const WastewaterAutomationArticle = () => {
+const ManualTranslationArticle = () => {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">
-        Industrial Wastewater Treatment Automation Systems
+        Technical Manual Translation Services
       </h1>
-      
-      <h2 className="text-2xl font-bold">Why it's relevant</h2>
+
+      <h2 className="text-2xl font-bold">Content Gap</h2>
       <p>
-        Industrial facilities increasingly seek to streamline wastewater operations and reduce reliance on manual labor. Automated treatment systems can ensure consistent effluent quality and regulatory compliance while lowering operating costs​ modernpumpingtoday.com. This is highly pertinent to Bluewater Lab’s ICP (plant managers and sustainability officers) who prioritize reliability and cost-efficiency. It aligns with Bluewater’s digital solutions (e.g. their SHIFT3 platform) that keep wastewater plants running 24/7 with real-time monitoring and predictive controls​ bluewaterlab.co, preventing downtime or environmental incidents.
+        Long-tail searches in this vein often come from manufacturing or tech companies needing user manuals or safety guides translated. The intent is B2B, focused on accuracy and safety. Current search results include agency pages that highlight their translators’ technical expertise, and a few blogs about challenges in technical translation. However, much of the content remains shallow or fragmented. There’s a lack of a one-stop resource explaining why technical manuals are tricky and how to do it right. For instance, while some content warns that mistranslating a simple warning can have “dire consequences… an unclear instruction could lead to serious injuries or even fatalities” (The Role of Technical Manual Translation Services in Product Safety and Compliance), most top pages don’t guide readers on ensuring quality (like managing terminology or regulatory compliance in translations). Also, content rarely touches on things like handling diagrams, units of measure, or compliance standards (e.g. machinery directives or OSHA guidelines in different languages).
       </p>
 
-      <h2 className="text-2xl font-bold">Content gap</h2>
+      <h2 className="text-2xl font-bold">How Ladon Can Fill It</h2>
       <p>
-        Current top search results for this keyword are often vendor-driven or Western-centric. Many discuss automation benefits in generic terms or in municipal contexts​ modernpumpingtoday.com, without addressing specific needs of Southeast Asian industrial plants. There is scant content on local considerations – for example, integrating automation into aging facilities common in SE Asia, dealing with tropical climate effects on sensors, or training local operators to use advanced SCADA/IoT systems. The existing information also tends to gloss over technical specifics (e.g. how to retrofit legacy equipment or which processes to prioritize for automation), leaving a knowledge gap for industrial plant managers in the region.
-      </p>
-
-      <h2 className="text-2xl font-bold">Content opportunity</h2>
-      <p>
-        Bluewater Lab could publish an in-depth guide on implementing industrial WWTP automation in Southeast Asia. This article can fill the gap by detailing real-world operational considerations: how to retrofit legacy treatment tanks with IoT sensors, optimal automation of aeration and chemical dosing to avoid manual errors, and maintenance of automated systems in humid tropical conditions. It should address common concerns (budget constraints, local skill training) and use case examples (e.g. a factory that adopted automation and saw fewer compliance violations and cost savings). By providing technical depth (such as explaining PLC controls or machine-learning predictions for pump/blower maintenance) in an objective way, Bluewater Lab’s piece would stand out from generic vendor content and establish authority for industrial decision-makers evaluating automation.
+        Ladon can produce a detailed guide or case study on technical manual translations titled “Preventing ‘Danger: Translation Error’ – How to Safely Translate Technical Manuals.” This piece should fill the gap by combining cautionary insights with actionable advice. It could start by citing real examples of technical translation failures – for example, a machinery manual error that caused a safety incident, or the recalled product due to a mistranslated instruction (The Role of Technical Manual Translation Services in Product Safety and Compliance) – grabbing the reader’s attention. Then, Ladon can outline how to avoid these outcomes: e.g. using industry-specific translators, creating bilingual glossaries for technical terms, and conducting a field test of the translated manual with native-speaking engineers. The article can highlight aspects competitors gloss over, such as the importance of visuals and labels (translating labels on diagrams, converting units properly) and meeting local documentation standards. By also mentioning Ladon’s process (maybe a QA step where another engineer reviews the translation), the content demonstrates authority. This superior page would be both a scare-straight and a how-to, fulfilling the user’s intent far better than generic service descriptions by ensuring the reader knows how to get a truly safe and effective manual translation.
       </p>
     </div>
   )
 }
 
 const keywordsData = [
-  { keyword: "industrial wastewater automation", intent: "Informational" },
-  { keyword: "wastewater treatment system automation", intent: "Informational" },
-  { keyword: "automated WWTP Southeast Asia", intent: "Informational" },
-  { keyword: "Bluewater Lab SHIFT3", intent: "Transactional" },
-  { keyword: "retrofitting legacy wastewater plants", intent: "Informational" },
-  { keyword: "SCADA IoT for wastewater", intent: "Informational" },
+  { keyword: "technical manual translation", intent: "Transactional" },
+  { keyword: "translate safety manuals", intent: "Transactional" },
+  { keyword: "B2B manual translation service", intent: "Transactional" },
+  { keyword: "machinery manual translation", intent: "Informational" },
+  { keyword: "Ladon technical translation QA", intent: "Transactional" },
+  { keyword: "compliance translation service", intent: "Informational" },
 ]
 
 export default function Page() {
@@ -52,12 +45,11 @@ export default function Page() {
       <section className="mx-auto max-w-4xl">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">
-            SEO Keyword Plan: Industrial Wastewater Treatment Automation
+            SEO Keyword Plan: Technical Manual Translation Services
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Here’s the SEO plan and Southeast Asia–focused blog article for decision-makers in wastewater treatment operations.
+            A high-authority blog for manufacturing and industrial clients searching for accurate, compliant manual translations.
           </p>
-          
         </header>
 
         <Card className="mb-8">
@@ -97,12 +89,12 @@ export default function Page() {
           <CardHeader>
             <CardTitle>
               <div className="bg-blue-200 text-blue-900 font-bold p-4 rounded-xl text-lg text-center">
-                Techincal Blog Content Idea
+                 Blog Content Idea
               </div>
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <WastewaterAutomationArticle />
+            <ManualTranslationArticle />
           </CardContent>
         </Card>
       </section>

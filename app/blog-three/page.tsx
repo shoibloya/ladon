@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import {
   Table,
@@ -11,38 +10,33 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const PredictiveMaintenanceArticle = () => {
+const VideoTranslationArticle = () => {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">
-        Predictive Maintenance for Wastewater Treatment Equipment
+        Corporate Video Translation and Voice-Over Services
       </h1>
 
-      <h2 className="text-2xl font-bold">Why it's relevant</h2>
+      <h2 className="text-2xl font-bold">Content Gap</h2>
       <p>
-        Unplanned equipment failures (pump breakdowns, blower outages, sensor faults) are a nightmare for wastewater plant managers – they can lead to compliance violations or costly downtime. Predictive maintenance, powered by IoT sensors and data analytics, helps anticipate issues before they cause a failure. For Bluewater Lab’s ICP, this is highly attractive: it promises increased uptime, prolonged equipment life, and lower maintenance costs. For example, using vibration sensors and machine learning, operators can service a pump at the right time, avoiding catastrophic failure. Research in the industry notes that performing maintenance proactively (instead of reactively) not only saves energy but can prevent full plant shutdowns​ watertechonline.com. Given Bluewater’s digital platform (with real-time monitoring and ML as in SHIFT3), the company is well-positioned to discuss how predictive analytics improve reliability in wastewater facilities. In the context of Southeast Asia, where maintenance resources or parts supply may be limited at remote industrial sites, such predictive approaches are even more valuable to ensure continuous operation.
+        This query comes from businesses wanting to translate videos – perhaps training videos, corporate communications, or marketing content – complete with subtitles or voice-overs. Currently, a user finds either service pages advertising multilingual voice-over and subtitling, or blog posts about benefits of video localization. These often mention broader reach and engagement, but might not address specific concerns a business has (like choosing subtitles vs. dubbing for their use case, or preserving brand tone in voice-overs). Moreover, while there are stats out there (e.g. 80% of viewers are more likely to watch a video to completion if it has subtitles (How Many People Use Subtitles in 2024? - Kapwing)), not all existing content leverages such data to make the case. And there’s a notable gap in discussing International SEO for videos (few mention that translated subtitles can improve a video’s SEO via transcripts (The Benefits of Video Translation and Multilingual Videos)) or the technical workflow for adding multi-language audio tracks. In sum, existing resources aren’t deeply satisfying the intent of a B2B user who not only wants to find a service, but also understand how to effectively implement video translation.
       </p>
 
-      <h2 className="text-2xl font-bold">Content gap</h2>
+      <h2 className="text-2xl font-bold">How Ladon Can Fill It</h2>
       <p>
-        When searching this keyword, users find a few articles and vendor pages touting predictive maintenance, but these often remain surface-level. They describe the concept and generic benefits (e.g. “monitor your blowers to reduce downtime”)​ assetwatch.com without diving into implementation challenges or technical depth. Moreover, much of the content assumes a North American/European setting – case studies might reference EPA regulations or power costs that don’t directly apply in SE Asia. There’s a lack of discussion on specific equipment common in Asian industrial plants (perhaps different pump models or locally made aerators) and how predictive maintenance can be adopted given local constraints (like limited internet connectivity in some factory locations or fewer in-house data specialists). In short, the existing search results tell what predictive maintenance is but not how to do it in an industrial wastewater context, and certainly not how to tailor it to Southeast Asian operations.
-      </p>
-
-      <h2 className="text-2xl font-bold">Content opportunity</h2>
-      <p>
-        Bluewater Lab can contribute a detailed, practical article on implementing predictive maintenance in industrial wastewater plants, with a slant towards Southeast Asian facilities. The content could outline the key assets to monitor (pumps, blowers, clarifier motors, chemical dosing systems) and the sensor data to track (vibration, pressure, flow rates, motor temperature, etc.). It can then explain how to analyze this data – perhaps highlighting that modern analytics tools or AI can flag anomalies (like a pump’s vibration trending higher, indicating wear) and schedule maintenance optimally​ watertechonline.com. To fill the gap, the article should address real-world hurdles: for example, how to start a pilot program on a limited budget, ways to train existing maintenance staff to interpret sensor dashboards, or ensuring data connectivity in a tropical factory environment. Bluewater can include a case snippet (e.g. “A palm oil mill installed sensors on its pumps and avoided 2 overflow incidents by predicting pump seal failures in advance”) to add credibility. By focusing on operational tips and lessons learned, rather than just selling a solution, Bluewater’s content would provide tangible value to plant managers. This authoritative approach, highlighting both technical steps and Southeast Asia-specific insights, would set it apart from the generic content currently available.
+        Ladon should develop an insightful article or guide like “Translating Corporate Videos: Subtitles, Voice-Overs, and Best Practices.” To stand out, this piece can begin with hard-hitting data about video engagement – for example, citing that captioned videos see significantly higher view times and share rates (Why Video Captions Are Key to Greater Engagement and Showing ...), and how non-English speaking employees or customers greatly prefer content in their language. Then, Ladon can fill the informational gap by comparing localization methods: when is simple subtitling sufficient versus when a professional voice-over (or even dubbing) is warranted. The guide could include a pros and cons table for subtitles vs. voice-over in corporate contexts (subtitles are cheaper and good for quick info videos; voice-overs are more engaging for training or marketing narratives, etc.). Additionally, Ladon can mention often-overlooked steps to quality: ensuring the timing of subtitles matches on-screen action, using native voice talent for voice-overs to sound authentic, and checking that any on-screen text in the video is translated (or at least explained via subtitles). By also talking about process, Ladon’s article could outline how a company can prepare their videos for translation (e.g. providing scripts, separate audio tracks) and how Ladon handles the workflow seamlessly. This level of detail and helpful advice would make the content far more useful than the prevailing generic offers. It assures the reader that Ladon understands the full picture – from boosting engagement to the nuts and bolts of producing a multilingual video that looks and sounds professional for any audience.
       </p>
     </div>
   )
 }
 
 const keywordsData = [
-  { keyword: "predictive maintenance wastewater", intent: "Informational" },
-  { keyword: "IoT predictive maintenance WWTP", intent: "Informational" },
-  { keyword: "sensor monitoring wastewater pumps", intent: "Informational" },
-  { keyword: "SHIFT3 Bluewater Lab predictive analytics", intent: "Transactional" },
-  { keyword: "condition-based maintenance Southeast Asia", intent: "Informational" },
-  { keyword: "machine learning pump maintenance", intent: "Informational" },
+  { keyword: "corporate video translation", intent: "Transactional" },
+  { keyword: "multilingual voice-over services", intent: "Transactional" },
+  { keyword: "subtitle vs dubbing business", intent: "Informational" },
+  { keyword: "video localization for training", intent: "Informational" },
+  { keyword: "translated video SEO subtitles", intent: "Informational" },
+  { keyword: "how to prepare videos for translation", intent: "Informational" },
 ]
 
 export default function Page() {
@@ -51,12 +45,11 @@ export default function Page() {
       <section className="mx-auto max-w-4xl">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">
-            SEO Keyword Plan: Predictive Maintenance for Wastewater Equipment
+            SEO Keyword Plan: Corporate Video Translation and Voice-Over
           </h1>
           <p className="mt-2 text-muted-foreground">
-            A practical technical blog designed for plant managers seeking predictive maintenance insights tailored to Southeast Asia.
+            A B2B-focused blog answering the full intent behind translating corporate video content across languages.
           </p>
-          
         </header>
 
         <Card className="mb-8">
@@ -96,12 +89,12 @@ export default function Page() {
           <CardHeader>
             <CardTitle>
               <div className="bg-blue-200 text-blue-900 font-bold p-4 rounded-xl text-lg text-center">
-                Techincal Blog Content Idea
+                Blog Content Idea
               </div>
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <PredictiveMaintenanceArticle />
+            <VideoTranslationArticle />
           </CardContent>
         </Card>
       </section>
