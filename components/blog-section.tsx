@@ -11,48 +11,46 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const blogPosts = [
   {
     id: 1,
-    title: "[OUTLINE] How to Start a Dance Studio in Singapore (Step-by-Step Guide)",
+    title: "[OUTLINE] Industrial Wastewater Treatment Automation Systems",
     excerpt: "Blog Outline",
-    imageUrl: "/blog-one.png",
-    date: "Apr 8",
+    imageUrl: "/outline.png",
+    date: "Apr 25",
     readTime: "N/A",
     url: "/blog-one",
     status: "pending",
   },
   {
     id: 2,
-    title: "[OUTLINE] Opening a Yoga Studio in Singapore: Licenses, Costs, and Setup Guide",
+    title: "[OUTLINE] Energy Efficiency in Wastewater Treatment Plants",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "Apr 8",
+    date: "May 2",
     readTime: "N/A",
     url: "/blog-two",
     status: "pending",
   },
-
   {
     id: 3,
-    title: "[OUTLINE] 10 Effective Marketing Strategies to Boost Your Fitness Studio’s Membership in Singapore.",
+    title: "[OUTLINE] Predictive Maintenance for Wastewater Treatment Equipment",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "Apr 8",
+    date: "May 9",
     readTime: "N/A",
     url: "/blog-three",
     status: "pending",
   },
-
   {
     id: 4,
-    title: "[OUTLINE] Singapore Fitness Studio Legal Checklist: Licenses, Permits, and Insurance Explained.",
+    title: "[OUTLINE] Digital Twin for Wastewater Treatment Plant Operations",
     excerpt: "Blog Outline",
     imageUrl: "/outline.png",
-    date: "Apr 8",
+    date: "May 12",
     readTime: "N/A",
     url: "/blog-four",
     status: "pending",
   },
-  
 ]
+
 
 // Animation variants
 const containerVariants = {

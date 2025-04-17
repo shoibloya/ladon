@@ -125,7 +125,7 @@ export default function TaskListView() {
   }
 
   return (
-    <Card className="shadow-xl border-0 overflow-hidden bg-white dark:bg-gray-950 w-full max-w-5xl mx-auto">
+    <Card className="shadow-xl border-0 overflow-hidden bg-white dark:bg-gray-950 w-full mx-auto">
       {/* Header */}
       <CardHeader className="bg-gradient-to-r from-primary/10 to-primary/5 p-6">
         <div className="flex flex-col space-y-4">

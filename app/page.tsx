@@ -11,14 +11,15 @@ import AgentsList from "@/components/AgentsList"
 import TaskCalendar from "@/components/TaskCalendar"
 import { BlogSection } from "@/components/blog-section"
 
+
 export default function Dashboard() {
   // Example KPI data
   const kpiData = [
-    { title: "DR", value: 48, icon: <Activity className="h-4 w-4" /> },
-    { title: "UR", value: 7, icon: <Users className="h-4 w-4" /> },
-    { title: "Backlinks", value: 8000, icon: <Link2 className="h-4 w-4" /> },
-    { title: "Ref. Domains", value: 232, icon: <Share2 className="h-4 w-4" /> },
-    { title: "Organic Traffic", value: 2400, icon: <Search className="h-4 w-4" /> },
+    { title: "DR", value: 3, icon: <Activity className="h-4 w-4" /> },
+    { title: "UR", value: 0.4, icon: <Users className="h-4 w-4" /> },
+    { title: "Backlinks", value: 1, icon: <Link2 className="h-4 w-4" /> },
+    { title: "Ref. Domains", value: 1, icon: <Share2 className="h-4 w-4" /> },
+    { title: "Organic Traffic", value: 0, icon: <Search className="h-4 w-4" /> },
   ]
 
   // Hard-coded keywords data
@@ -41,6 +42,7 @@ export default function Dashboard() {
   }
 
   return (
+    
     <div className="min-h-screen bg-gradient-to-b from-background via-background/95 to-primary/5">
       <div className="container mx-auto flex flex-col space-y-8 px-4 py-8 md:px-6 lg:px-8">
         {/* Dashboard Title */}
@@ -55,7 +57,7 @@ export default function Dashboard() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-3xl font-bold tracking-tight text-transparent md:text-4xl"
           >
-            Vibefam Dashboard
+            Bluewater Dashboard
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -80,35 +82,36 @@ export default function Dashboard() {
             </motion.div>
           ))}
         </motion.div>
+         {/* Blog Section - Added above SEO Metrics */}
+         <motion.div variants={containerVariants} initial="hidden" animate="visible">
+          <motion.div variants={itemVariants}>
+            <BlogSection />
+          </motion.div>
+        </motion.div>
 
         {/* Task List and Agents Section */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 gap-6 lg:grid-cols-2"
+          className="grid grid-cols-1 gap-6"
         >
           {/* Task List */}
           <motion.div variants={itemVariants}>
             <TaskCalendar />
           </motion.div>
 
-          {/* Agents List */}
+          {/* Agents List 
           <motion.div variants={itemVariants}>
             <Card className="overflow-hidden border bg-card/50 shadow-md backdrop-blur-sm">
               <CardContent className="p-4">
                 <AgentsList />
               </CardContent>
             </Card>
-          </motion.div>
+          </motion.div>*/}
         </motion.div>
 
-        {/* Blog Section - Added above SEO Metrics */}
-        <motion.div variants={containerVariants} initial="hidden" animate="visible">
-          <motion.div variants={itemVariants}>
-            <BlogSection />
-          </motion.div>
-        </motion.div>
+       
 
         {/* Content Below */}
         <motion.div variants={containerVariants} initial="hidden" animate="visible" className="grid gap-6">
